@@ -1,0 +1,287 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	background-color: #ccd3e0;
+}
+a:hover{
+	color: #aa0a3d;
+}
+.navbar{
+	color: white;
+}
+.jumbotron img{
+	width: 100%;
+}
+.jumbotron h1{
+	font-family: 'Anton', sans-serif;
+}
+.jumbotron{
+	height: 250px;
+	overflow: hidden;
+}
+.jumbotron #details{
+	position: absolute;
+}
+.post{
+	background: white;
+	border-radius: 10px;
+	border: 1px solid #93b2ed;
+	margin: 15px 0px;
+}
+.post .post-date{
+	padding: 20px;
+	text-align: center;
+}
+.post .post-date .day{
+	font-size: 30px;
+	color: #93b2ed;
+}
+.post .post-date .year{
+	font-weight: 100;
+}
+.post .post-title{
+	padding: 5px 20px;
+	border-left: 1px solid #93b2ed;
+}
+.post .post-title span{
+	margin-left: 10px;
+}
+.post .profile{
+	padding: 20px;
+}
+.post .profile img{
+	width: 100%;
+	margin-left: -10px;
+	margin-top: -5px;
+}
+.post > a > img{
+	width: 100%;
+}
+.post .description{
+	font-family: arial;
+	font-weight: 100;
+	padding: 15px;
+	line-height: 25px;
+}
+.post > a.btn{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.post .bottom{
+	padding: 20px;
+	border-top: 1px solid #93b2ed;
+	align-items: center;
+}
+nav#pagination{
+	text-align: center;
+}
+.pagination{
+	border: 1px solid #93b2ed;
+}
+
+.input-group{
+	border: 1px solid #93b2ed;
+}
+.popular{
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #93b2ed;
+}
+.popular img{
+	width: 100%;
+}
+.popular .details{
+	margin-left: -20px;
+	margin-top: -10px;
+}
+.popular .details p{
+	font-family: arial;
+	font-size: 13px;
+}
+.recent{
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #93b2ed;
+}
+.recent img{
+	width: 100%;
+}
+.recent .details{
+	margin-left: -20px;
+	margin-top: -10px;
+}
+.recent .details p{
+	font-family: arial;
+	font-size: 13px;
+}
+.category{
+	background: white;
+	border-radius: 10px;
+	border: 1px solid #93b2ed;
+	padding: 20px;
+}
+.social{
+	background: white;
+	border-radius: 10px;
+	padding: 20px;
+	border: 1px solid #93b2ed;
+}
+.social img{
+	width: 80%;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #2f343d;
+	color: #fff;
+	padding: 20px 0;
+}
+
+footer ul {
+	display: flex;
+}
+
+footer ul li {
+	margin-left: 16px;
+	list-style: none;
+}
+
+footer p {
+	text-transform: uppercase;
+	font-size: 14px;
+	opacity: 0.6;
+	align-self: center;
+}
+.contact{
+	background: white;
+	border-radius: 10px;
+	border: 1px solid #93b2ed;
+	padding: 10px 30px;
+	padding-bottom: 50px;
+}
+.contact h2{
+	color: #aa0a3d;
+}
+.contact textarea{
+	resize: none;
+}
+.related-posts{
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #93b2ed;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
+.related-posts img{
+	width: 100%;
+	height: 130px;
+}
+.author {
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 20px;
+	border: 1px solid #93b2ed;
+	margin-bottom: 10px;
+}
+.author img{
+	width: 100%;
+}
+.comments{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 20px;
+	border: 1px solid #93b2ed;
+	margin-bottom: 10px;
+}
+.comments img{
+	width: 60%;
+	margin-top: 20px;
+}
+.comment-box{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 20px;
+	border: 1px solid #93b2ed;
+	margin-bottom: 10px;
+}
+.comment-box textarea{
+	resize:none;
+}
+@media (max-width: 786px) {
+	footer {
+		flex-direction: column;
+	}
+
+	footer p {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	footer ul li {
+		margin: 0 8px;
+	}
+	.jumbotron #details{
+		margin-left: 30px;
+	}
+	.jumbotron img{
+		height: 250px;
+		width: 250%;
+	}
+	.carousel-caption{
+		margin-bottom: -25px;
+	}
+	.post .post-title h1{
+		font-size: 20px;
+	}
+	.post .post-title p{
+		font-size: 13px;
+		margin-top: -4px;
+	}
+	.post .post-title span{
+		margin-left: -1px;
+	}
+	.post .post-date .day{
+		font-size: 17px;
+		margin-left: 5px;
+	}
+	.post .post-date .month{
+		font-size: 10px;
+	}
+	.post .post-date .year{
+		font-size: 13px;
+		margin-left: 4px;
+	}
+	.post .profile img{
+		width:155%;
+	}
+	.post > a > img{
+		height: 250px;
+	}
+	.post .description{
+		line-height: 17px;
+	}
+	.author img{
+		width: 30%;
+	}
+	.author{
+		text-align: center;
+	}
+	.author p{
+		font-size: 13px;
+		font-weight: 12px;
+	}
+	.comments img{
+		width: 120%;
+		
+	}
+	.comments h4{
+		font-size: 15px;
+		
+	}
+	.comments p{
+		font-size: 12px;
+	}
+} 
